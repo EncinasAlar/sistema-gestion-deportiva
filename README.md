@@ -8,8 +8,12 @@ Este proyecto consiste en una plataforma que permite a los usuarios de centros d
 
 ### Requisitos Previos
 - Docker y Docker Compose instalados.
+- Backend y frontend están incluidos en el archivo `docker-compose.yml`. Los servicios se inician automáticamente al ejecutar los pasos de inicio.
+- No es necesario instalar dependencias manualmente, ya que están incluidas en los archivos de configuración de los contenedores.
+
 
 ### Pasos para Iniciar el Proyecto
+
 1. **Clonar este repositorio:**
    ```bash
    git clone <URL-del-repositorio>
